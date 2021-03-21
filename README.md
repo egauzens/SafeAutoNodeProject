@@ -26,3 +26,5 @@ Setup and Installation Instructions:
 6. To execute and run the program type the following command into your cmd window inside the server directory:
 
     npm run dev
+    
+7. To try other test cases you can edit the file at \server\inputData\inputFile.txt
