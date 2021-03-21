@@ -4,6 +4,10 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded());
 
+app.get("/", (req, res) => {
+	res.send({ hi: "there" });
+});
+
 if (process.env.NODE_ENV === "production") {
 	app.use(express.static("client/build"));
 
