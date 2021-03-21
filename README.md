@@ -1,7 +1,11 @@
 # SafeAutoNodeProject
 SafeAuto Project created using a Node backend with React frontend
 
-Setup and Installation Instructions
+Feel free to visit https://safe-auto-project.herokuapp.com/ to see this app hosted on a Heroku server! 
+
+If you want to run it in development mode so that you can test other test cases follow the instructions below.
+
+Setup and Installation Instructions:
 
 1. Clone this repo to your local machine using https://github.com/egauzens/SafeAutoNodeProject.git
 
