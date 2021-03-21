@@ -1,11 +1,13 @@
 const express = require("express");
+const readFile = require("./inputData/readFile");
 const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded());
 
-app.get("/", (req, res) => {
-	res.send({ hi: "there" });
+app.get("/api/report_input", async (req, res) => {
+	var data = await readFile.parseInput();
+	res.send(data);
 });
 
 if (process.env.NODE_ENV === "production") {
